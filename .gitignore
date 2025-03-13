@@ -1,0 +1,6 @@
+# filepath: c:\Users\HP\OneDrive\Desktop\haiku-app\.gitignore
+node_modules/
+.env
+dist/
+build/
+```
