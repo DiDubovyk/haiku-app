@@ -1,17 +1,69 @@
 {
   "node": {
-    "7fd852c7e7d9581289afc4cccf5b101b6a791a0898": {
+    "7f60f7d8c970f4da8ec30c89fed8c156faa830d0cb": {
       "workers": {
         "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227fd852c7e7d9581289afc4cccf5b101b6a791a0898%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
-        "app/page": "action-browser"
+        "app/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/login/page": "rsc"
+      }
+    },
+    "7fbf205a4ffc80cf3a2d058fb58614dd7002a30dad": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/login/page": "rsc"
+      }
+    },
+    "7fc86523612477abb72a2a376ffdf721b4220530b3": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/login/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "WL6fLG3vJXd5RnPLbC+DADxtwy1T4ONKlNsZFaYoioc="
+  "encryptionKey": "BdgIZ9QLmE08Nt2RYk10sMGOLwDCPD6POMZfXHS1Ya0="
 }
