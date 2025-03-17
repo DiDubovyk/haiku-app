@@ -701,6 +701,13 @@ html {
     background-color: hsl(var(--b3) / var(--tw-bg-opacity));
   }
 
+  .btn-primary:hover {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--pf) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--pf) / var(--tw-bg-opacity));
+  }
+
   .btn-secondary:hover {
     --tw-border-opacity: 1;
     border-color: hsl(var(--sf) / var(--tw-border-opacity));
@@ -724,6 +731,15 @@ html {
     --tw-border-opacity: 0;
     background-color: hsl(var(--bc) / var(--tw-bg-opacity));
     --tw-bg-opacity: 0.2;
+  }
+
+  .btn-outline.btn-primary:hover {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--pf) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--pf) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: hsl(var(--pc) / var(--tw-text-opacity));
   }
 
   .btn-outline.btn-secondary:hover {
@@ -886,6 +902,21 @@ html {
   outline-width: 2px;
   outline-offset: 2px;
 }
+.btn-primary {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(var(--pc) / var(--tw-text-opacity));
+  outline-color: hsl(var(--p) / 1);
+}
+.btn-primary.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--pf) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--pf) / var(--tw-bg-opacity));
+}
 .btn-secondary {
   --tw-border-opacity: 1;
   border-color: hsl(var(--s) / var(--tw-border-opacity));
@@ -940,6 +971,18 @@ html {
   --tw-border-opacity: 0;
   background-color: hsl(var(--bc) / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.2;
+}
+.btn-outline.btn-primary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
+}
+.btn-outline.btn-primary.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--pf) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--pf) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(var(--pc) / var(--tw-text-opacity));
 }
 .btn-outline.btn-secondary {
   --tw-text-opacity: 1;
@@ -1314,6 +1357,12 @@ html {
 .mb-5 {
   margin-bottom: 1.25rem;
 }
+.mr-3 {
+  margin-right: 0.75rem;
+}
+.hidden {
+  display: none;
+}
 .h-6 {
   height: 1.5rem;
 }
@@ -1359,6 +1408,10 @@ html {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-xl {
   font-size: 1.25rem;
