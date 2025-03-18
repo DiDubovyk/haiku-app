@@ -19,6 +19,7 @@ export default function HaikuForm(props) {
       <div className="mb-3">
         <input
           name="line1"
+          defaultValue={props.haiku?.line1}
           autoComplete="off"
           type="text"
           placeholder="line #1"
@@ -49,6 +50,7 @@ export default function HaikuForm(props) {
           autoComplete="off"
           type="text"
           placeholder="line #2"
+          defaultValue={props.haiku?.line2}
           className="input input-bordered w-full max-w-xs"
         />
         {formState.errors?.line2 && (
@@ -76,6 +78,7 @@ export default function HaikuForm(props) {
           autoComplete="off"
           type="text"
           placeholder="line #3"
+          defaultValue={props.haiku?.line3}
           className="input input-bordered w-full max-w-xs"
         />
         {formState.errors?.line3 && (

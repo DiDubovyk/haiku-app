@@ -1,57 +1,98 @@
 {
   "node": {
-    "7f60f7d8c970f4da8ec30c89fed8c156faa830d0cb": {
+    "7f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153": {
       "workers": {
         "app/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
         "app/edit-haiku/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%224027366ea2ae638ef5102c348c5980e17b2444e816%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%2240a3d27b3e96abbd16e40d27e17cad2b3be9f24b21%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/page": "rsc",
-        "app/edit-haiku/[id]/page": "rsc"
+        "app/login/page": "rsc",
+        "app/edit-haiku/[id]/page": "rsc",
+        "app/_not-found/page": "rsc"
       }
     },
-    "7fbf205a4ffc80cf3a2d058fb58614dd7002a30dad": {
+    "7fc8bbc5bf6997c3817191fc3b3e3392202029b1cd": {
       "workers": {
         "app/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
         "app/edit-haiku/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%224027366ea2ae638ef5102c348c5980e17b2444e816%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%2240a3d27b3e96abbd16e40d27e17cad2b3be9f24b21%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/page": "rsc",
-        "app/edit-haiku/[id]/page": "rsc"
+        "app/login/page": "rsc",
+        "app/edit-haiku/[id]/page": "rsc",
+        "app/_not-found/page": "rsc"
       }
     },
-    "7fc86523612477abb72a2a376ffdf721b4220530b3": {
+    "7feb634c6cd4105014e0e0878ea521fceaf6ab336c": {
       "workers": {
         "app/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
         "app/edit-haiku/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%224027366ea2ae638ef5102c348c5980e17b2444e816%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%2240a3d27b3e96abbd16e40d27e17cad2b3be9f24b21%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
         "app/page": "rsc",
+        "app/login/page": "rsc",
+        "app/edit-haiku/[id]/page": "rsc",
+        "app/_not-found/page": "rsc"
+      }
+    },
+    "40a3d27b3e96abbd16e40d27e17cad2b3be9f24b21": {
+      "workers": {
+        "app/edit-haiku/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f8b83d6c0ebbce962c04e9321fbfe15f44d4c3153%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fc8bbc5bf6997c3817191fc3b3e3392202029b1cd%22%2C%22exportedName%22%3A%22register%22%7D%2C%7B%22id%22%3A%227feb634c6cd4105014e0e0878ea521fceaf6ab336c%22%2C%22exportedName%22%3A%22login%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%2240a3d27b3e96abbd16e40d27e17cad2b3be9f24b21%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
         "app/edit-haiku/[id]/page": "rsc"
       }
     },
-    "7fb652f251150b1a38fd8aa43dc384be50d6003028": {
+    "7f18282dc811edd496bc0bb7c24b84301ff0b46795": {
       "workers": {
         "app/edit-haiku/[id]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5ChaikuController.js%22%2C%5B%7B%22id%22%3A%227fb652f251150b1a38fd8aa43dc384be50d6003028%22%2C%22exportedName%22%3A%22createHaiku%22%7D%2C%7B%22id%22%3A%227fef02566c7a7ee7d5c4737bf4a40827ff42547d95%22%2C%22exportedName%22%3A%22editHaiku%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5ChaikuController.js%22%2C%5B%7B%22id%22%3A%227f18282dc811edd496bc0bb7c24b84301ff0b46795%22%2C%22exportedName%22%3A%22editHaiku%22%7D%2C%7B%22id%22%3A%227fab003bf2817f72e248ee7a61c03b4a5f3b2cff9c%22%2C%22exportedName%22%3A%22createHaiku%22%7D%2C%7B%22id%22%3A%227fff3445d97c23ecf5e7d552823e23ddf80c9ffad1%22%2C%22exportedName%22%3A%22deleteHaiku%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
@@ -59,10 +100,10 @@
         "app/edit-haiku/[id]/page": "action-browser"
       }
     },
-    "7fef02566c7a7ee7d5c4737bf4a40827ff42547d95": {
+    "7fab003bf2817f72e248ee7a61c03b4a5f3b2cff9c": {
       "workers": {
         "app/edit-haiku/[id]/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5ChaikuController.js%22%2C%5B%7B%22id%22%3A%227fb652f251150b1a38fd8aa43dc384be50d6003028%22%2C%22exportedName%22%3A%22createHaiku%22%7D%2C%7B%22id%22%3A%227fef02566c7a7ee7d5c4737bf4a40827ff42547d95%22%2C%22exportedName%22%3A%22editHaiku%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5ChaikuController.js%22%2C%5B%7B%22id%22%3A%227f18282dc811edd496bc0bb7c24b84301ff0b46795%22%2C%22exportedName%22%3A%22editHaiku%22%7D%2C%7B%22id%22%3A%227fab003bf2817f72e248ee7a61c03b4a5f3b2cff9c%22%2C%22exportedName%22%3A%22createHaiku%22%7D%2C%7B%22id%22%3A%227fff3445d97c23ecf5e7d552823e23ddf80c9ffad1%22%2C%22exportedName%22%3A%22deleteHaiku%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
@@ -70,18 +111,18 @@
         "app/edit-haiku/[id]/page": "action-browser"
       }
     },
-    "4027366ea2ae638ef5102c348c5980e17b2444e816": {
+    "7fff3445d97c23ecf5e7d552823e23ddf80c9ffad1": {
       "workers": {
         "app/edit-haiku/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5CuserController.js%22%2C%5B%7B%22id%22%3A%227f60f7d8c970f4da8ec30c89fed8c156faa830d0cb%22%2C%22exportedName%22%3A%22logout%22%7D%2C%7B%22id%22%3A%227fbf205a4ffc80cf3a2d058fb58614dd7002a30dad%22%2C%22exportedName%22%3A%22login%22%7D%2C%7B%22id%22%3A%227fc86523612477abb72a2a376ffdf721b4220530b3%22%2C%22exportedName%22%3A%22register%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Capp%5C%5Cedit-haiku%5C%5C%5Bid%5D%5C%5Cpage.jsx%22%2C%5B%7B%22id%22%3A%224027366ea2ae638ef5102c348c5980e17b2444e816%22%2C%22exportedName%22%3A%22default%22%7D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CHP%5C%5COneDrive%5C%5CDesktop%5C%5Chaiku-app%5C%5Cactions%5C%5ChaikuController.js%22%2C%5B%7B%22id%22%3A%227f18282dc811edd496bc0bb7c24b84301ff0b46795%22%2C%22exportedName%22%3A%22editHaiku%22%7D%2C%7B%22id%22%3A%227fab003bf2817f72e248ee7a61c03b4a5f3b2cff9c%22%2C%22exportedName%22%3A%22createHaiku%22%7D%2C%7B%22id%22%3A%227fff3445d97c23ecf5e7d552823e23ddf80c9ffad1%22%2C%22exportedName%22%3A%22deleteHaiku%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/edit-haiku/[id]/page": "rsc"
+        "app/edit-haiku/[id]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "BdgIZ9QLmE08Nt2RYk10sMGOLwDCPD6POMZfXHS1Ya0="
+  "encryptionKey": "OM2ELUKh3RiJvjW/hAfjDkm0EH4+7I4P46GbVWv9aOo="
 }

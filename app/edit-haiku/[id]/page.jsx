@@ -2,6 +2,8 @@
 import HaikuForm from "../../../components/HaikuForm";
 import { getCollection } from "../../../lib/db";
 import { ObjectId } from "mongodb";
+import { getUserFromCookie } from "../../../lib/getUser";
+import { redirect } from "next/navigation";
 
 async function getDoc(id) {
     const haikusCollection = await getCollection("haikus");
@@ -16,6 +18,13 @@ export default async function Page(props) {
         line1: haikuFromDb.line1,
         line2: haikuFromDb.line2,
         line3: haikuFromDb.line3,
+        author: haikuFromDb.author.toString()
+    };
+
+    const user = await getUserFromCookie();
+
+    if (user.userId !== plainHaiku.author) {
+        return redirect("/")
     }
 
     return (

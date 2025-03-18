@@ -22,7 +22,11 @@ export default async function Dashboard(props) {
             {haiku.line1} <br />
             {haiku.line2} <br />
                 {haiku.line3} <br />
-                <Link href={`/edit-haiku/${haiku._id.toString()}`}>Edit</Link>
+            <Link href={`/edit-haiku/${haiku._id.toString()}`}>Edit</Link>
+            <form action={deleteHaiku}>
+              <input name="id" type="hidden" defaultValue={haiku._id.toString()} />
+              <button>Delete</button>
+            </form>
             <hr />
           </div>
         );
