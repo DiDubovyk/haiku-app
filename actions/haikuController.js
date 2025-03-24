@@ -4,6 +4,13 @@ import { redirect } from "next/navigation";
 import { getUserFromCookie } from "../lib/getUser";
 import { ObjectId } from "mongodb";
 import { getCollection } from "../lib/db";
+import cloudinary from "cloudinary";
+
+const cloudinaryConfig = cloudinary.config({
+  cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+});
 
 function isAlphaNumericWithBasics(text) {
   const regex = /^[a-zA-Z0-9 .,]*$/;
@@ -55,6 +62,15 @@ async function sharedHaikuLogic(formData, user) {
   if (ourHaiku.line2.length == 0) errors.line2 = "This field is required.";
   if (ourHaiku.line3.length == 0) errors.line3 = "This field is required.";
 
+  //verify signature
+  const exprectedSignature = cloudinary.utils.api_sign_request(
+    { public_id: formData.get("public_id"), version: formData.get("version") },
+    cloudinaryConfig.api_secret
+  );
+  if (exprectedSignature === formData.get("signature")) {
+    ourHaiku.photo = formData.get("public_id");
+  }
+
   return {
     errors,
     ourHaiku,
@@ -79,9 +95,30 @@ export const createHaiku = async function (prevState, formData) {
   return redirect("/");
 };
 
-export const deleteHaiku = async function () {
-    
-}
+export const deleteHaiku = async function (formData) {
+  const user = await getUserFromCookie();
+
+  if (!user) {
+    return redirect("/");
+  }
+
+  const haikusCollection = await getCollection("haikus");
+  let haikuId = formData.get("id");
+  if (typeof haikuId != "string") haikuId = "";
+
+  const haikuInQuestion = await haikusCollection.findOne({
+    _id: ObjectId.createFromHexString(haikuId),
+  });
+  if (haikuInQuestion.author.toString() !== user.userId) {
+    return redirect("/");
+  }
+
+  await haikusCollection.deleteOne({
+    _id: ObjectId.createFromHexString(haikuId),
+  });
+
+  return redirect("/");
+};
 
 export const editHaiku = async function (prevState, formData) {
   const user = await getUserFromCookie();
@@ -96,16 +133,18 @@ export const editHaiku = async function (prevState, formData) {
     return { errors: results.errors };
   }
 
-  const haikusCillection = await getCollection("haikus");
+  const haikusCollection = await getCollection("haikus");
   let haikuId = formData.get("haikuId");
-    if (typeof haikuId != "string") haikuId = "";
-    
-    const haikuInQuestion = await haikusCillection.findOne({ _id: ObjectId.createFromHexString(haikuId) });
-    if (haikuInQuestion.author.toString() !== user.userId) {
-        return redirect("/");
-    }
+  if (typeof haikuId != "string") haikuId = "";
 
-  await haikusCillection.findOneAndUpdate(
+  const haikuInQuestion = await haikusCollection.findOne({
+    _id: ObjectId.createFromHexString(haikuId),
+  });
+  if (haikuInQuestion.author.toString() !== user.userId) {
+    return redirect("/");
+  }
+
+  await haikusCollection.findOneAndUpdate(
     { _id: ObjectId.createFromHexString(haikuId) },
     { $set: results.ourHaiku }
   );
