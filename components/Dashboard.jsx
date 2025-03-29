@@ -14,10 +14,11 @@ async function getHaikus(id) {
 
 export default async function Dashboard(props) {
   const haikus = await getHaikus(props.user.userId);
+  const plainHaiku = JSON.parse(JSON.stringify(haikus));
   return (
     <div>
       <h2 className="text-center text-2xl text-gray-600 mb-5">Your Haikus</h2>
-      {haikus.map((haiku, index) => {
+      {plainHaiku.map((haiku, index) => {
         return <Haiku haiku={haiku} key={index} />;
       })}
     </div>
