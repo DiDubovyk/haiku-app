@@ -1,5 +1,6 @@
 # filepath: c:\Users\HP\OneDrive\Desktop\haiku-app\.gitignore
 node_modules/
+.next/
 .env
 dist/
 build/

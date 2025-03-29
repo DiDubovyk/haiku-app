@@ -1,6 +1,6 @@
 {
-  "/widget-signature/route": "app/widget-signature/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/edit-haiku/[id]/page": "app/edit-haiku/[id]/page.js",
-  "/login/page": "app/login/page.js"
+  "/login/page": "app/login/page.js",
+  "/edit-haiku/[id]/page": "app/edit-haiku/[id]/page.js"
 }
