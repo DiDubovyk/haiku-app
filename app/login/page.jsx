@@ -44,7 +44,6 @@ export default function Page() {
             placeholder="Password"
             className="input input-bordered w-full max-w-xs"
           />
-          
         </div>
         <button className="btn btn-secondary">Submit</button>
       </form>

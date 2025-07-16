@@ -39,15 +39,15 @@ async function sharedHaikuLogic(formData, user) {
   ourHaiku.line2 = ourHaiku.line2.trim();
   ourHaiku.line3 = ourHaiku.line3.trim();
 
-  if (ourHaiku.line1.length < 5) errors.line1 = "Too few syllables, must be 5";
+  if (ourHaiku.line1.length < 3) errors.line1 = "Too few syllables, must be 3";
   if (ourHaiku.line1.length > 25)
     errors.line1 = "Too many syllables, must be 5";
 
-  if (ourHaiku.line2.length < 7) errors.line2 = "Too few syllables, must be 7";
+  if (ourHaiku.line2.length < 5) errors.line2 = "Too few syllables, must be 5";
   if (ourHaiku.line2.length > 35)
     errors.line2 = "Too many syllables, must be 7";
 
-  if (ourHaiku.line3.length < 5) errors.line3 = "Too few syllables, must be 5";
+  if (ourHaiku.line3.length < 3) errors.line3 = "Too few syllables, must be 3";
   if (ourHaiku.line3.length > 25)
     errors.line3 = "Too many syllables, must be 5";
 

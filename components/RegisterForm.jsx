@@ -64,7 +64,9 @@ export default function RegisterForm() {
             </div>
           )}
         </div>
-        <button className="btn btn-secondary">Create Account</button>
+        <button className="btn bg-[#9a3181] text-white font-thin hover:text-black hover:bg-[#da70c2]">
+          Create Account
+        </button>
       </form>
     );
 }

@@ -8,13 +8,13 @@ export default async function Page() {
     <>
       {user && <Dashboard user={user} />}
       {!user && (
-        <>
+        <div className="w-full h-full flex justify-center items-center flex-col">
           <p className="text-center text-2xl text-gray-600 mb-5">
             Don&rsquo;t have an account?
-            <strong>Create One</strong>
+            <strong> Create One </strong>
           </p>
           <RegisterForm />
-        </>
+        </div>
       )}
     </>
   );
